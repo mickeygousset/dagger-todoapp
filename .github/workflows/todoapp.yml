@@ -11,7 +11,7 @@ on:
 env:
   # This needs to be unique across all of netlify.app
   APP_NAME: todoapp-dagger-devopselvis
-  NETLIFY_TEAM: dagger
+  NETLIFY_TEAM: mickeygousset
 
 jobs:
   dagger:
