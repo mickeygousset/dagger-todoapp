@@ -28,6 +28,7 @@ jobs:
           version: latest
           # To pin external dependencies, you can use `project update github.com/[package-source]@v[n]`
           cmds: |
+            login
             project update
             do deploy
         env:
